@@ -3,7 +3,7 @@ import Table from './Table'
 
 class App extends Component {
   render() {
-    const character = [
+    const characters = [
       {
         name: 'Charlie',
         job: 'Janitor',
