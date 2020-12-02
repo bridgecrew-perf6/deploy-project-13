@@ -17,7 +17,7 @@ class Form extends Component {
   }
 
   submitForm = () => {
-    //call function and pass the Form stat through as the character parameter
+    //call function and pass the Form state through as the character parameter
     this.props.handleSubmit(this.state)
     //reset state to initial state, to clear the form after submit
     this.setState(this.initialState)
